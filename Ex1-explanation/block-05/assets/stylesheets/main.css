@@ -1,0 +1,119 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, head {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    line-height: 1;
+     }
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* ---------------------------------------------------------
+CUSTOM STYLE
+-------------------------------------------------------------*/
+body {
+    background-color: #050505;
+    color: whitesmoke;
+    line-height: 1.5;
+    font-size: 16px;
+    font-family: sofia;
+    text-align: center;
+}
+header{
+    text-align: center;
+    
+}
+h1 {
+    font-size: 50px;
+    float: left;
+    padding: 20px;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+nav{
+    text-align: right;
+    margin-top: 40px;
+}
+nav ul a {
+    color: whitesmoke;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: sofia;
+    margin-right: 50px;
+    box-sizing: border-box;
+}
+nav li {
+    display: inline-block;
+}
+main {
+    text-align: center;
+    margin: 40px;
+}
+h2{
+    font-size: 20px;
+    margin: 5%;
+}
+.c1, .c2, .c3 {
+    float: left;
+    width: 300px;
+    margin-left: 100px;
+    box-sizing: border-box;
+}
+p {
+    font-size: medium;
+}
+.parent:before, .parent:after {
+    content: "";
+    display: table;
+}
+.parent:after {
+   clear: both;
+}
+footer{
+    text-align: center;
+    background-color: white;
+    height: 60px;
+}
+h3{
+    color: #050505;
+    padding: 1%;
+}
